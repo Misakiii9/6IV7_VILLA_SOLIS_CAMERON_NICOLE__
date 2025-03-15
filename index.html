@@ -11,18 +11,26 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .container {
-            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
+        }
+        .card {
             background-color: #ffffff; /* Blanco */
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+            max-width: 500px;
+            width: 100%;
         }
         .btn {
-            margin: 15px;
-            padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 8px;
+            margin: 10px;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 6px;
         }
         .btn-primary {
             background-color: #0277bd; /* Azul oscuro */
@@ -40,23 +48,24 @@
             background-color: #0277bd;
             border-color: #01579b;
         }
-        p {
-            font-size: 20px;
+        h1 {
+            font-size: 24px;
             color: #0277bd;
             font-weight: bold;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <p>Portafolio de evidencias de: Villa Solis Cameron Nicole</p>
-
-        <div class="btn-group">
-            <a href="./Ciberseguridad/01Cesar/cesar.html" class="btn btn-primary btn-lg">Cifrado César</a>
-            <a href="./Ciberseguridad/02Vigenere/vigenere.html" class="btn btn-success btn-lg">Cifrado Vigenère</a>
+        <div class="card">
+            <h1>Portafolio de evidencias de: <br> Villa Solis Cameron Nicole</h1>
+            <div class="d-grid gap-3">
+                <a href="./Ciberseguridad/01Cesar/cesar.html" class="btn btn-primary">Cifrado César</a>
+                <a href="./Ciberseguridad/02Vigenere/vigenere.html" class="btn btn-success">Cifrado Vigenère</a>
+            </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
