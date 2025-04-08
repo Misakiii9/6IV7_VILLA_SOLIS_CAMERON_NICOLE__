@@ -36,17 +36,17 @@ for i in df_tiendas.index:
 
 #mostrar resultados 
 
-print('/n Distancia Euclidiana entre cada una de las tiendas: ') 
+print('\nDistancia Euclidiana entre cada una de las tiendas: ') 
 print(distancias_punto1)  
 
-print('/n Distancia Manhatthan entre cada una de las tiendas: ') 
+print('\nDistancia Manhatthan entre cada una de las tiendas: ') 
 print(distancias_punto2) 
 
-print('/n Distancia Chebyshev entre cada una de las tiendas: ') 
+print('\nDistancia Chebyshev entre cada una de las tiendas: ') 
 print(distancias_punto3) 
 
  
- #----------------------------------------#
+#----------------------------------------#
 
 #Calcularemos las distancias entre todos los pares de puntos y determinaremos cuáles están más alejados entre sí y cuáles están más cercanos, utilizando las distancias Euclidiana, Manhattan y Chebyshev.
 #Ejercicio: Determinación de Distancias entre Puntos
